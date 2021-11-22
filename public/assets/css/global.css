@@ -1,0 +1,14 @@
+body, html{    
+    font-family: 'Roboto', Courier, monospace;
+    width: 95%;
+    height: 95%;
+
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 200%;
+        width: 90%
+    }
+}
+  

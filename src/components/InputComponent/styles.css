@@ -1,0 +1,36 @@
+.divInput {
+    width: 18.75rem;
+    height: 3.125rem;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 6px;  
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+.labelInput {
+    color: gray;
+    font-size:0.6rem;
+    padding-top: 0.3rem;
+    padding-left: 0.6rem;
+}
+.inputElement {    
+    width: 95%;
+    border: 0;
+    background-color: transparent;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: right;   
+    margin-bottom: 1.875rem; 
+    outline: 0;
+    cursor: pointer;
+}
+.inputElement::-webkit-inner-spin-button,
+.inputElement::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+

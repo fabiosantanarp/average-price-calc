@@ -1,0 +1,99 @@
+.title {
+    color: hsl(0, 0%, 0%);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom:2rem;  
+    margin-top:2rem; 
+    text-align: center;    
+    margin-left:2rem;    
+}
+.container{    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    margin-left:5rem;
+    margin-right:5rem;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 50rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right:5rem;
+}
+
+.middle {
+    display:flex;
+    flex:1; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.equation {
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+.equationDescription {
+    font-size: 0.6rem;
+    margin: 1rem;
+}
+.calculate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:1rem;
+    margin-right: 5rem;
+}
+
+.tableList {
+    width: 100%;
+    height: 100%;
+    font-size: 0.5rem; 
+    margin-right: 5rem;
+    
+}
+
+.tableList thead tr{
+    width: 7rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    background-color: darkgray;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.tableList td{
+    width: 7rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    color: #000000;
+    text-align: center;
+    border: solid 1px #CCCCCC;
+}
+
+.btnAdd{
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #FFFFFF;    
+    background-color: #000000;    
+    padding: 0.5rem 3rem ;
+    margin-right:4rem;
+    text-align: center;
+    border-radius: 5px;
+    align-self: center;
+}
